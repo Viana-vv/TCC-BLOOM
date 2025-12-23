@@ -8,9 +8,9 @@ O projeto foi desenvolvido como **TCC**, envolvendo a criação de um sistema co
 Centralizar e simplificar o processo de inscrição em eventos de ONGs, permitindo que usuários visualizem eventos disponíveis, confirmem presença e interajam em tempo real.
 
 ## ⚙️ Funcionalidades
-- Autenticação de usuários
-- Visualização de ONGs e eventos cadastrados
-- Inscrição e confirmação de presença em eventos
+- Autenticação e controle de acesso
+- Listagem e consulta de entidades (ONGs e eventos) 
+- CRUD de inscrições e confirmação de presença em eventos
 - Chat por evento
 - Aplicação de regras de negócio
 - Interface responsiva
@@ -18,7 +18,7 @@ Centralizar e simplificar o processo de inscrição em eventos de ONGs, permitin
 ## 🛠️ Tecnologias utilizadas
 - PHP  
 - MySQL  
-- PHPMyAdmin  
+- PHPMyAdmin (ferramenta!) 
 - HTML5  
 - CSS3  
 
