@@ -33,3 +33,7 @@ Centralizar e simplificar o processo de inscrição em eventos de ONGs, permitin
 ## 🚀 Status do projeto
 ✔️ Concluído (TCC – ETEC Aprígio Gonzaga)
 
+## Mapa Mental do projeto 
+<br>
+<img width="636" height="726" alt="Imagem ilustrativa do site" src="https://github.com/user-attachments/assets/d47cf0a5-fd91-4921-aeee-94289a582550" />
+
