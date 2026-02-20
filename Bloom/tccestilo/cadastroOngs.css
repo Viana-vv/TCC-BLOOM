@@ -13,6 +13,7 @@ body{
     background-color: #234124;
     border: solid 3px #dce2b3;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .caixa ul{
@@ -22,6 +23,9 @@ body{
     align-items: center;
     list-style: none;
     color: #dce2b3;
+}
+.caixa ul li {
+    padding: 2%;
 }
 
 

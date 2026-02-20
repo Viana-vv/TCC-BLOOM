@@ -2,8 +2,8 @@
 // Dados da conexão
 $servidor = "localhost";       // servidor MySQL
 $usuario  = "root";            // usuário do banco
-$senha    = "1194viana@";      // senha do usuário
-$banco    = "bloom";         // nome do banco de dados
+$senha    = "";      // senha do usuário
+$banco    = "Bloom";         // nome do banco de dados
 
 // Criar conexão entre PHP e MySQL
 $conn = new mysqli($servidor, $usuario, $senha, $banco);

@@ -49,7 +49,7 @@ body{
 
 .nav1 ul li a{
    color: #dce2b3;
-    font-weight: 500;
+    font-weight: 300;
     padding: 5px 0;
     display: block;
     text-transform: capitalize;
@@ -166,7 +166,7 @@ width: 100%;
 
 .nav2 ul li a{
    color: #dce2b3;
-    font-weight: 500;
+    font-size: small;
     padding: 5px 0;
     display: block;
     text-transform: capitalize;
@@ -178,6 +178,7 @@ width: 100%;
 .nav2 ul li:hover a{
   color: #dce2b3;
   background-color: #234124;
+  border-radius: 5%;
 }
 .nav2 ul li a i{
     width: 40px;

@@ -176,7 +176,7 @@ value="<?php echo isset($_GET['pesquisar']) ? htmlspecialchars($_GET['  $row[tit
       if($result->num_rows > 0){
         while($row = $result->fetch_assoc()){
           echo '<div class="col-md-4" > ';
-          echo '<div class="card mb-3 " style="width: 18rem;"> ';
+          echo '<div class="card mb-3 w-100" > ';
           echo '<div class="card-body">📌';
           echo '<h5 class="card-title">Evento: ' . $row["titulo"] . '</h5>';
        

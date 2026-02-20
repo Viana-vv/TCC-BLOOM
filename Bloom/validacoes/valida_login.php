@@ -4,8 +4,8 @@ session_start();
 
 $host = "localhost";
 $user = "root";
-$pass = "1194viana@";
-$dbname = "bloom";
+$pass = "";
+$dbname = "Bloom";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 

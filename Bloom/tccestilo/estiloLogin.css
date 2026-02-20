@@ -19,8 +19,8 @@ body{
 
 img{
 border-radius: 30px;
-    width: 300px;
- height: 300px;   
+    width: 100px;
+ height: 100px;   
 border: solid #dce2b3;
 box-shadow: 0 20px 30px rgba(0,0,0,0.3);
 }
@@ -31,8 +31,8 @@ box-shadow: 0 20px 30px rgba(0,0,0,0.3);
     border-color: #dce2b3;
     border:  solid 3px;
     color: #dce2b3;
-    width: 900px;
-    height: 800px;
+    width: 700px;
+    
 justify-content: center;
 align-items: center;
 flex-direction: column;
@@ -52,10 +52,10 @@ border-radius: 30px;
 }
 
 input{
-    margin-top: 20px;
+  
     font-size: large;
     width: 400px;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
 }
 input:hover{
@@ -67,7 +67,6 @@ input:hover{
 
 
 button{
-    margin-top: 10px;
   margin-bottom: 5px;
     width: 350px;
     height: 50px;
@@ -84,11 +83,11 @@ button:hover{
 }
 
 ul li{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-p b {
-font-size: x-large;
+p b a{
+font-size: medium;
 }
 
 @media (max-width:600px){
@@ -112,8 +111,8 @@ font-size: x-large;
         align-items: center;
     }
     img{
-        width: 200px;
-        height: 200px;
+        width: 75px;
+        height: 75px;
     }
     button{
         width: 100px;
@@ -137,8 +136,8 @@ input:hover{
 border-end-end-radius: 20px;
 }
 
-p b {
-    font-size: x-large;
+p, b, .Caixa a {
+    font-size: medium;
     }
 }
 

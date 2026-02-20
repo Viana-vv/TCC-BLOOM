@@ -10,7 +10,7 @@ header('Location:login.html');
 }
 
 try{
-    $pdo = new PDO('mysql:host=localhost;  dbname=bloom;charset=utf8mb4','root',"1194viana@");
+    $pdo = new PDO('mysql:host=localhost;  dbname=bloom;charset=utf8mb4','root',"");
     $pdo->setAttribute (PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $sql="SELECT re.titulo, re.descricao, re.data_evento, re.rua, re.bairro, re.estado, re.id_evento

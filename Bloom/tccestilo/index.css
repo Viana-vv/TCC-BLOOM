@@ -1,0 +1,179 @@
+   *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Montserrat', sans-serif;
+      background:#ffffff;
+      color:#2e8b57;
+    }
+
+    header{
+      width:100%;
+      padding:20px 60px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      border-bottom:1px solid #eaeaea;
+    }
+
+    .logo{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    .logo img{
+      width:55px;
+      height:auto;
+    }
+
+    header h2{
+      font-size:24px;
+      color:#2e8b57;
+    }
+
+    nav{
+      display:flex;
+      align-items:center;
+    }
+
+    nav a{
+      color:#2e8b57;
+      text-decoration:none;
+      margin-left:25px;
+      font-weight:500;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      opacity:0.7;
+    }
+
+    .hero{
+      min-height:85vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:40px 20px;
+    }
+
+    .hero img{
+      width:170px;
+      max-width:80%;
+      margin-bottom:25px;
+    }
+
+    .hero h1{
+      font-size:52px;
+      margin-bottom:20px;
+      max-width:900px;
+    }
+
+    .hero p{
+      font-size:20px;
+      max-width:700px;
+      margin-bottom:35px;
+      color:#444;
+    }
+
+    .buttons{
+      display:flex;
+      gap:15px;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:14px 32px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      transition:0.3s;
+    }
+
+    .btn-primary{
+      background:#2e8b57;
+      color:white;
+    }
+
+    .btn-primary:hover{
+      background:#256f46;
+    }
+
+    .btn-outline{
+      border:2px solid #2e8b57;
+      color:#2e8b57;
+    }
+
+    .btn-outline:hover{
+      background:#f2f2f2;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px 20px;
+      border-top:1px solid #eaeaea;
+      font-size:14px;
+      color:#777;
+    }
+
+    /* ================= RESPONSIVIDADE ================= */
+
+    @media (max-width:1024px){
+      header{padding:20px 30px}
+      .hero h1{font-size:42px}
+    }
+
+    @media (max-width:768px){
+      header{
+        flex-direction:column;
+        gap:15px;
+        padding:20px;
+        text-align:center;
+      }
+
+      nav{
+        flex-direction:column;
+        gap:10px;
+      }
+
+      nav a{
+        margin-left:0;
+      }
+
+      .hero{
+        min-height:auto;
+        padding:60px 20px;
+      }
+
+      .hero img{
+        width:140px;
+      }
+
+      .hero h1{
+        font-size:34px;
+      }
+
+      .hero p{
+        font-size:17px;
+      }
+
+      .buttons{
+        flex-direction:column;
+        width:100%;
+        max-width:320px;
+      }
+
+      .btn{
+        width:100%;
+        text-align:center;
+      }
+    }
+
+    @media (max-width:420px){
+      .hero h1{font-size:28px}
+      .hero p{font-size:15px}
+      .logo img{width:45px}
+      header h2{font-size:20px}
+    }
